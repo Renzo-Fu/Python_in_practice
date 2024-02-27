@@ -28,7 +28,7 @@ For stdin input:
 ```bash
 cat <file_name> | python simplified_nl.py
 ```
-2. Simplified tail Utility (simplified_tail.py)
+###2. Simplified tail Utility (simplified_tail.py)
 A Python script that replicates the basic functionality of the tail command, outputting the last 10 lines of each input file or the last 17 lines from stdin if no file is specified.
 
 Usage
@@ -43,7 +43,7 @@ For stdin input:
 cat | python simplified_tail.py
 ```
 
-3. Simplified wc Utility (simplified_wc.py)
+###3. Simplified wc Utility (simplified_wc.py)
 This script functions similarly to the wc command, providing a count of lines, words, and characters for each input file or stdin input.
 
 Usage
