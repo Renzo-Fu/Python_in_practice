@@ -1,0 +1,17 @@
+Task 1.2
+
+input:
+python simplified_tail.py test1.txt test2.txt  
+
+output:
+==> test1.txt <==
+Hello
+My name is renzo
+And this is just a test
+to try the
+functionality of my code
+==> test2.txt <==
+This is
+just
+a new
+file test

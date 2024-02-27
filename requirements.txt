@@ -1,0 +1,1 @@
+# This script uses only the Python Standard Library, no external requirements.

@@ -1,0 +1,11 @@
+Task 1.1
+input:
+python simplified_nl.py test.txt 
+
+output:
+1       Hello 
+2       My name is renzo
+3       And this is just a test
+4       to try the
+5       functionality of my code
+
