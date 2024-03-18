@@ -1,3 +1,14 @@
+Metadata-Version: 2.1
+Name: latexgen-renzo-fu
+Version: 0.1.2
+Summary: A simple LaTeX table and image generator
+Home-page: https://github.com/Renzo-Fu/Python_course
+Author: Renzo
+Author-email: renz_alexander@example.com
+Keywords: LaTeX,table,image
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
 # Python_course
 LaTeX Tools
 LaTeX Tools is a Python package that simplifies the generation of LaTeX documents. It provides functionality to automatically create tables and include images in your LaTeX documents, making it easier to incorporate data and visuals into your LaTeX projects.
