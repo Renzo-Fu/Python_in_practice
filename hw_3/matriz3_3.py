@@ -29,14 +29,14 @@ class Matrix:
 
 class HashableMixin:
     def __hash__(self):
-        # Хэш-функция: суммируем все элементы матрицы, добавляем произведение размеров и берём остаток от деления на большое простое число
+
         return int(np.sum(self.matrix) + self.matrix.shape[0] * self.matrix.shape[1]) % 104729
 
 
 class HashableMatrix(HashableMixin, Matrix):
     def __init__(self, matrix):
         super().__init__(matrix)
-    # Кэширование результатов матричного умножения
+
     _cache = {}
 
     def __matmul__(self, other):
@@ -68,7 +68,7 @@ D = B
 AB = A @ B
 CD = C @ D
 
-# Сохранение результатов
+
 A.to_file("C:\\Users\\renz_\\Python_course\\hw_3\\artifacts\\3.3\\A.txt")
 B.to_file("C:\\Users\\renz_\\Python_course\\hw_3\\artifacts\\3.3\\B.txt")
 C.to_file("C:\\Users\\renz_\\Python_course\\hw_3\\artifacts\\3.3\\C.txt")
