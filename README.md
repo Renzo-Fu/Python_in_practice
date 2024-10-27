@@ -56,7 +56,7 @@ Renzo Flores Ugarte Флорес Угарте Рензо
 
 This repository contains my implementations of simplified versions of the Unix utilities `nl`, `tail`, and `wc` as part of my homework assignments. These scripts are written in Python and designed to replicate some of the basic functionalities of their original counterparts.
 
-## Homework Assignments
+## Pratical implementation
 
 ### 1. Simplified `nl` Utility (`simplified_nl.py`)
 
