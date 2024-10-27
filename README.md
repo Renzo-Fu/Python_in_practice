@@ -1,4 +1,4 @@
-# Python_course
+# Python in practice
 <<<<<<< HEAD
 LaTeX Tools
 LaTeX Tools is a Python package that simplifies the generation of LaTeX documents. It provides functionality to automatically create tables and include images in your LaTeX documents, making it easier to incorporate data and visuals into your LaTeX projects.
